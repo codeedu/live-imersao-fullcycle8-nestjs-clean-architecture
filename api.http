@@ -1,0 +1,14 @@
+GET http://localhost:3000/prefixo/hello
+
+###
+GET http://localhost:3000/routes
+
+###
+POST http://localhost:3000/routes
+Content-Type: application/json
+
+{
+    "title": "minha rota",
+    "startPosition": { "lat": 0, "lng": 1 },
+    "endPosition": { "lat": 2, "lng": 3 }
+}
